@@ -16,8 +16,37 @@ import {Navbar} from "./components";
 function App() {
   return (
     <>
-      <main className='font-roboto bg-red-500'>
-        <Navbar />
+      <main className='relative bg-mainBg'>
+        <section className='py-8 padding-x '>
+          <Navbar />
+        </section>
+        <section className='xl:padding-x padding-b'>
+          <Hero />
+        </section>
+        <section>
+          <Trending />
+        </section>
+        <section>
+          <TopCreator />
+        </section>
+        <section>
+          <BrowseCatg />
+        </section>
+        <section>
+          <Discover />
+        </section>
+        <section>
+          <SpecialOffer />
+        </section>
+        <section>
+          <HowWork />
+        </section>
+        <section>
+          <Newsletter />
+        </section>
+        <section>
+          <Footer />
+        </section>
       </main>
     </>
   );

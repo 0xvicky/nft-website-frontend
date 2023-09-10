@@ -4,8 +4,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        tilum: ["Titillium Web", "sans-serif"],
         palanquin: ["Palanquin", "sans-serif"]
+      },
+      backgroundColor: {
+        mainBg: "#2B2B2B",
+        mainPurple: "#A259FF"
       }
     }
   },
