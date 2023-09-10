@@ -1,13 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import {AiOutlineShop, AiOutlineUser} from "react-icons/ai";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {navLinks} from "../constants";
 import Button from "./Button";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
+  const [isSideBar, setIsSideBar] = useState(false);
+
   return (
     <div className='w-full'>
-      <nav className='flex justify-between items-center max-container'>
+      <nav className='relative flex justify-between items-center max-container'>
         <a
           href='/'
           className='flex gap-2 items-center'>
@@ -36,12 +39,20 @@ const Navbar = () => {
             label='Sign Up'
           />
         </ul>
-        <div className='max-lg:block hidden cursor-pointer'>
+        <div
+          className='max-lg:block hidden cursor-pointer'
+          onClick={() => {
+            setIsSideBar(true);
+          }}>
           <GiHamburgerMenu
             color='white'
             fontSize={32}
           />
         </div>
+        <Sidebar
+          isSideBar={isSideBar}
+          setIsSideBar={setIsSideBar}
+        />
       </nav>
     </div>
   );
