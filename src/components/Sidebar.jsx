@@ -7,8 +7,8 @@ import {MdCancel} from "react-icons/md";
 const Sidebar = ({isSideBar, setIsSideBar}) => {
   return (
     <div
-      className={`absolute ${isSideBar && "-translate-x-40"}
-   bg-white z-10 max-lg:flex hidden duration-400 transition-all -right-56 top-0 w-[150px] h-[450px] flex-col p-2 gap-6`}>
+      className={`absolute ${isSideBar && "-translate-x-40 "}
+   bg-white z-10 max-lg:flex hidden duration-500 transition-all -right-56 top-0 w-[150px] h-[450px] flex-col p-2 gap-6`}>
       <MdCancel
         fontSize={28}
         className='cursor-pointer'

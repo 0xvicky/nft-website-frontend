@@ -16,7 +16,7 @@ const Navbar = () => {
           className='flex gap-2 items-center'>
           <AiOutlineShop
             fontSize={30}
-            color='purple'
+            color='#A259FF'
           />
           <span className='text-white font-semibold font-tilum text-2xl'>
             NFT Marketplace
@@ -49,6 +49,7 @@ const Navbar = () => {
             fontSize={32}
           />
         </div>
+
         <Sidebar
           isSideBar={isSideBar}
           setIsSideBar={setIsSideBar}

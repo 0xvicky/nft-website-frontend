@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <main className='relative bg-mainBg'>
-        <section className='py-8 padding-x '>
+        <section className='pt-6 padding-x '>
           <Navbar />
         </section>
         <section className='xl:padding-x padding-b'>
