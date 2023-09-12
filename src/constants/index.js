@@ -10,7 +10,19 @@ import {
   disco_main,
   dsgn_owner,
   mushroom_owner,
-  disco_owner
+  disco_owner,
+  crt_1,
+  crt_2,
+  crt_3,
+  crt_4,
+  crt_5,
+  crt_6,
+  crt_7,
+  crt_8,
+  crt_9,
+  crt_10,
+  crt_11,
+  crt_12
 } from "../assets/images";
 
 export const navLinks = [
@@ -52,5 +64,68 @@ export const trendDetails = [
     ownerImg: disco_owner,
     ownerName: "BeKind2Robots",
     nftNumber: "7000"
+  }
+];
+
+export const creatorDet = [
+  {
+    imgURL: crt_1,
+    name: "Keepitreal",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_2,
+    name: "DigiLab",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_3,
+    name: "GravityOne",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_4,
+    name: "Juanie",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_5,
+    name: "BlueWhale",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_6,
+    name: "mr fox",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_7,
+    name: "Shroomie",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_8,
+    name: "robotica",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_9,
+    name: "RustyRobot",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_10,
+    name: "animakid",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_11,
+    name: "Dotgu",
+    totalSales: "10"
+  },
+  {
+    imgURL: crt_12,
+    name: "Ghiblier",
+    totalSales: "10"
   }
 ];

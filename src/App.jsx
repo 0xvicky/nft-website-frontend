@@ -26,7 +26,7 @@ function App() {
         <section className='padding'>
           <Trending />
         </section>
-        <section>
+        <section className='padding'>
           <TopCreator />
         </section>
         <section>
