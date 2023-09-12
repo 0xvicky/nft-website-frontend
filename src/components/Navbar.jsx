@@ -49,11 +49,6 @@ const Navbar = () => {
             fontSize={32}
           />
         </div>
-        {/*
-        <Sidebar
-          isSideBar={isSideBar}
-          setIsSideBar={setIsSideBar}
-        /> */}
       </nav>
     </div>
   );

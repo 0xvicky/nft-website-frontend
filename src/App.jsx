@@ -16,14 +16,14 @@ import {Navbar} from "./components";
 function App() {
   return (
     <>
-      <main className='relative bg-mainBg'>
-        <section className='pt-6 padding-x '>
+      <main className='relative bg-mainBg w-fit'>
+        <section className='pt-6 padding-x'>
           <Navbar />
         </section>
-        <section className='xl:padding-x padding-b'>
+        <section className='xl:padding-x '>
           <Hero />
         </section>
-        <section>
+        <section className='padding'>
           <Trending />
         </section>
         <section>

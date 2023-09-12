@@ -6,7 +6,7 @@ import {heroHigl, heroAvat} from "../assets/images";
 
 const Hero = () => {
   return (
-    <div className='p-2 xl:padding lg:max-xl:px-10 flex lg:flex-row flex-col padding-y gap-10 items-center justify-between min-h-screen'>
+    <div className='p-2 xl:padding lg:max-xl:px-10 flex lg:flex-row flex-col padding-y gap-10 items-center justify-between min-h-screen '>
       <div className='flex flex-col gap-8 lg:w-2/5 max-lg:padding-x '>
         <h1 className='flex flex-col justify-center capitalize gap-y-3 font-bold text-7xl text-white font-tilum'>
           <span>Discover</span>
